@@ -1,0 +1,51 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #777;
+}
+
+section {
+    margin: auto;
+    width: 800px;
+    position: relative;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+button {
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    padding: 5px 10px;
+    width: 140px;
+    background-color: rgb(0, 48, 160);
+    border: 1px solid rgb(0, 0, 0); 
+}
+
+.button {
+    font-size: 14px;
+    color:#000;
+    padding: 5px 10px;
+    width: 140px;
+    background-color: #FF9;
+    border: 1px solid #777;
+}
+
+.button:hover {
+    background-color: #FF1;
+    border: 1px solid #777;
+}
+
+.col {
+    padding: 4px;
+    margin: 2px;
+    background-color: #CF9;
+    border: 1px solid #777;
+}
+
+.row {
+    margin: 12px;
+}

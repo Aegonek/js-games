@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mines</title>
+        <meta name="description" content="We're happy miners here. Hurray.">
+        <link rel="stylesheet" href="styles.css">
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Mines - mined by Dominik</h1>
+        </header>
+        <section id="options">
+            <p>
+                Czas: <span id="time"></span>
+            </p>
+            <p id="settingsP">
+                Size of the board: <input type="text" id="boardSize"/>
+                Number of mines: <input type="text" id="mineQuantity"/>
+            </p>
+            <button id="startButton" onclick="generateGame()">Start game</button>
+            <p>
+                <ul>
+                    <li>Kliknięcie lewym przyciskiem myszki to oznaczenie bomby.</li>
+                    <li>Podwójne kliknięcie lewym przyciskiem myszy to odkrycie pola.</li>
+                </ul>
+            </p>
+        </section>
+    </body>
+</html>

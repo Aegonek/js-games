@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="skrypt.js"></script>
+        <title>Tytuł strony / podstrony</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Pamięć</h1>
+        </header>
+
+        <section id="appendable">
+            <p> 
+                <p class="setting">
+                    Liczba rzędów: <input type="text" id="row-count-input"/>
+                </p>
+                <p class="setting">
+                    Liczba kolumn: <input type="text" id="column-count-input"/>
+                </p>
+                <p class="setting">
+                    Czas na ukończenie gry: <input type="text" id="max-sec-input"/>
+                </p>
+                <button id="restart-button" style="display: none;">Restart</button>
+                <button id="start-button">Start</button>
+                <div>
+                    Czas na ukończenie gry: <span id="max-time-showed">0</span> 
+                </div>
+                <div>
+                    Czas: <span id="time-counter">0</span> 
+                </div>
+                <div>
+                    Wynik: <span id="score">0</span> 
+                </div>
+            </p>
+
+            <div id="board"></div>
+        </section>
+        <footer>
+            <p>
+                <p>Copyright &copy; 2014 jkozak.pl</p>
+            </p>
+        </footer>
+    </body>
+</html>
